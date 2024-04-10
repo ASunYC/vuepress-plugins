@@ -8,7 +8,7 @@
         <i class="kbnfont kbn-ban-home ban-home" @click="goHome" @mouseenter="hoverGoHome" @mouseleave="resetMessage"></i>
         <i class="kbnfont kbn-ban-message message"></i>
         <i class="kbnfont kbn-ban-close close" @click="closeBanNiang" @mouseenter="hoverCloseBanNiang" @mouseleave="resetMessage"></i>
-        <a target="_blank" href="https://gitee.com/ASun001/freeman.home.vuepress-plugins/blob/master/packages/%40asun01">
+        <a target="_blank" href="https://gitee.com/ASun001/freeman.home.vuepress-plugins/tree/master/packages/@asun01">
           <i class="kbnfont kbn-ban-info info" @mouseenter="hoverMoreInfo" @mouseleave="resetMessage"></i>
         </a>
         <i v-show="myTheme.length > 1" class="kbnfont kbn-ban-theme skin" @click="changeTheme" @mouseenter="hoverChangeTheme" @mouseleave="resetMessage"></i>

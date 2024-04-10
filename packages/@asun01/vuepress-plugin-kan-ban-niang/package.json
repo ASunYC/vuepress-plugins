@@ -1,6 +1,6 @@
 {
-  "name": "@asun01/vuepress-plugin-cursor-effects",
-  "version": "1.0.0",
+  "name": "@asun01/vuepress-plugin-kan-ban-niang",
+  "version": "1.0.2",
   "description": "vuepress plugin dynamic-title for vuepress v2.x",
   "main": "lib/node/index.js",
   "types": "lib/node/index.d.ts",
@@ -11,11 +11,11 @@
     "prepare": "npm run clean & npm run build",
     "clean": "rimraf lib *.tsbuildinfo",
     "build": "tsc -b tsconfig.build.json & npm run copy",
-    "copy": "cpx \"src/**/*.{d.ts,vue,js,png}\" lib"
+    "copy": "cpx \"src/**/*.{d.ts,vue,js,css,eot,svg,ttf,woff}\" lib"
   },
   "license": "MIT",
   "author": "asun01",
-  "homepage": "https://gitee.com/ASun001/freeman.home.vuepress-plugins/blob/master/packages/%40asun01/vuepress-plugin-cursor-effects",
+  "homepage": "https://gitee.com/ASun001/freeman.home.vuepress-plugins/tree/master/packages/@asun01/vuepress-plugin-kan-ban-niang",
   "repository": {
     "type": "git",
     "url": "git+https://gitee.com/ASun001/freeman.home.vuepress-plugins.git"
@@ -24,12 +24,11 @@
     "access": "public"
   },
   "keywords": [
-    "@asun01/vuepress-plugin-cursor-effects",
+    "@asun01/vuepress-plugin-kan-ban-niang",
     "vuepress2",
     "plugin",
-    "vuepress-plugin-cursor-effects",
-    "dynamic-title",
-    "title"
+    "vuepress-plugin-kan-ban-niang",
+    "kan-ban-niang"
   ],
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.30.4",
@@ -45,6 +44,7 @@
   "dependencies": {
     "@vuepress/client": "^2.0.0-beta.48",
     "@vuepress/core": "^2.0.0-beta.48",
-    "@vuepress/utils": "^2.0.0-beta.48"
+    "@vuepress/utils": "^2.0.0-beta.48",
+    "cpx": "^1.5.0"
   }
 }

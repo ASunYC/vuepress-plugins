@@ -1,7 +1,7 @@
 {
-  "name": "@asun01/vuepress-plugin-cursor-effects",
+  "name": "@asun01/vuepress-plugin-bgm-player-next",
   "version": "1.0.0",
-  "description": "Mouse click effect plugin for vuepress v2.x",
+  "description": "bgm player plugin for vuepress v2.x",
   "main": "lib/node/index.js",
   "types": "lib/node/index.d.ts",
   "files": [
@@ -15,7 +15,7 @@
   },
   "license": "MIT",
   "author": "asun01",
-  "homepage": "https://gitee.com/ASun001/freeman.home.vuepress-plugins/blob/master/packages/%40asun01/vuepress-plugin-cursor-effects",
+  "homepage": "https://gitee.com/ASun001/freeman.home.vuepress-plugins/tree/master/packages/@asun01/vuepress-plugin-bgm-player-next",
   "repository": {
     "type": "git",
     "url": "git+https://gitee.com/ASun001/freeman.home.vuepress-plugins.git"
@@ -24,11 +24,12 @@
     "access": "public"
   },
   "keywords": [
-    "@asun01/vuepress-plugin-cursor-effects",
+    "@asun01/vuepress-plugin-bgm-player-next",
     "vuepress2",
     "plugin",
-    "cursor-effects",
-    "effects"
+    "bgm player",
+    "bgm",
+    "player"
   ],
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.30.4",
