@@ -1,0 +1,44 @@
+{
+  "name": "@asun01/vuepress-plugin-loading-page",
+  "version": "1.0.0",
+  "description": "vuepress plugin loading page for vuepress v2.x",
+  "main": "lib/node/index.js",
+  "types": "lib/node/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "prepare": "npm run clean & npm run build",
+    "clean": "rimraf lib *.tsbuildinfo",
+    "build": "tsc -b tsconfig.build.json & npm run copy",
+    "copy": "cpx \"src/**/*.{d.ts,vue,js,css}\" lib"
+  },
+  "license": "MIT",
+  "author": "asun01",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "@asun01/vuepress-plugin-loading-page",
+    "vuepress2",
+    "plugin",
+    "vuepress-plugin-loading-page",
+    "loading page"
+  ],
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.30.4",
+    "@typescript-eslint/parser": "^5.30.4",
+    "eslint": "^8.19.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.1.1",
+    "prettier": "^2.7.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@vuepress/client": "^2.0.0-beta.48",
+    "@vuepress/core": "^2.0.0-beta.48",
+    "@vuepress/utils": "^2.0.0-beta.48"
+  }
+}
