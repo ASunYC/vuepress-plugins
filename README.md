@@ -1,4 +1,6 @@
-# vuepress-plugin-2.x
+![vuepress-plugin-2.x](https://raw.githubusercontent.com/ASunYC/vuepress-plugins/main/vuepress-plugin.jpg)
+
+## 关于
 
 plugins for vuepress 2.x
 
