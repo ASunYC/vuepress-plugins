@@ -1,4 +1,4 @@
-![vuepress-plugin-2.x](https://raw.githubusercontent.com/ASunYC/vuepress-plugins/main/vuepress-plugin.jpg)
+![vuepress-plugin-2.x](https://raw.githubusercontent.com/ASunYC/vuepress-plugins/master/vuepress-plugin.jpg)
 
 ## 关于
 
